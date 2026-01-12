@@ -6,52 +6,88 @@
 
 ---
 
-## 🌌 Descripción
+## Español 🇪🇸
+
+### 🌌 Descripción
 PlanetaryCamera es una recreación de un sistema planetario ficticio, junto con una nave que se puede mover por el sistema. Desde la nave, puedes explorar los planetas desde distintas perspectivas, observar órbitas y disfrutar de la simulación interactiva.
 
 ![Animación del sistema planetario](https://github.com/YoneHernandezLeon/PlanetaryCamera/blob/main/planetarysistemgif.gif?raw=true)
 
----
-
-## ✨ Características
+### ✨ Características
 - 🔄 Rotación interactiva del sistema planetario con el ratón.  
 - 👁️ Cambio de perspectiva: panorámica o primera persona desde la nave.  
 - 🪐 Mostrar u ocultar las órbitas de los planetas.  
 - 🔄 Reset de la posición de la nave.  
 - 🎨 Texturas aplicadas a planetas y estrella central.
 
----
+### 🛠️ Desarrollo
 
-## 🛠️ Desarrollo
-
-### Sistema planetario
+**Sistema planetario**
 1. Creación de la estrella central y su rotación.  
 2. Implementación del primer planeta y cálculo de su órbita.  
 3. Añadido del resto de planetas y algunas lunas.  
 4. Ajuste de rotaciones para un aspecto más natural.  
 5. Adición de texturas y órbitas, manipulación con ratón.
 
-### Nave y cámara
+**Nave y cámara**
 - Cambio entre vistas panorámica y primera persona.  
 - Rotación horizontal y vertical de la cámara.  
 - Propulsión hacia delante y movimiento suave.  
 - Visualización de instrucciones en pantalla.
 
-> ⚠️ Nota: Las fórmulas de movimiento se ajustaron para corregir errores iniciales durante el desarrollo.
+> ⚠️ Nota: Las fórmulas de movimiento se ajustaron para corregir errores iniciales.
 
----
-
-## 🐛 Errores conocidos
+### 🐛 Errores conocidos
 - La aplicación funciona correctamente.  
 - No se implementa colisión entre la nave y los planetas; la nave atraviesa los planetas al acercarse, lo cual es normal.
 
----
-
-## 📚 Referencias
+### 📚 Referencias
 - **Fuente de letra:** [Star Jedi](https://www.dafont.com/es/star-jedi.font)  
 - **Lenguaje de programación:** [Processing](https://processing.org/reference/)
 
+### 📦 Licencia
+MIT License
+
 ---
 
-## 📦 Licencia
+## English 🇺🇸
+
+### 🌌 Description
+PlanetaryCamera is a recreation of a fictional planetary system along with a small spaceship that can move within the system. From the ship, you can explore the planets from different perspectives, view orbits, and enjoy the interactive simulation.
+
+![Planetary system animation](https://github.com/YoneHernandezLeon/PlanetaryCamera/blob/main/planetarysistemgif.gif?raw=true)
+
+### ✨ Features
+- 🔄 Interactive planetary system rotation with the mouse.  
+- 👁️ Perspective change: panoramic or first-person view from the ship.  
+- 🪐 Show or hide planetary orbits.  
+- 🔄 Reset the ship to its initial position.  
+- 🎨 Textures applied to planets and the central star.
+
+### 🛠️ Development
+
+**Planetary System**
+1. Creation of the central star and its rotation.  
+2. Implementation of the first planet and calculation of its orbit.  
+3. Added the rest of the planets and some moons.  
+4. Adjusted rotations for a more natural look.  
+5. Added textures and orbits, with mouse interaction.
+
+**Ship and Camera**
+- Switch between panoramic and first-person views.  
+- Horizontal and vertical camera rotation.  
+- Forward propulsion and smooth movement.  
+- On-screen display of instructions.
+
+> ⚠️ Note: Movement formulas were adjusted to fix initial errors.
+
+### 🐛 Known Issues
+- The application works correctly.  
+- No collision system between the ship and planets; the ship can pass through planets when nearby, which is expected.
+
+### 📚 References
+- **Font:** [Star Jedi](https://www.dafont.com/es/star-jedi.font)  
+- **Programming language:** [Processing](https://processing.org/reference/)
+
+### 📦 License
 MIT License
